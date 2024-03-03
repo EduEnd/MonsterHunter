@@ -11,9 +11,14 @@
     <!--mudanças nas formas, fonts e imagens-->
     <style>
       h1,h2{ font-family: Verdana;
-          font-size: 40;
+          font-size: 36px;
           color:black;
           text-shadow: 2px 2px 2px yellow;
+      }
+      
+      h3{
+        font-size: 28px;
+        text-shadow: 2px 2px 2px yellow;
       }
      body{
       background-color: rgb(158, 189, 247);
@@ -34,17 +39,50 @@
        transform: translate(-50%, -100%);
        padding: 20px;
        text-align: left;
+       margin: 0;
 
-     }
-
-     .texto_imagem h1 {
-      margin: 0;
      }
 
     .texto_imagem{
-      margin: 10px 0;
+      margin: 10px;
+     }
+    .fisiologia{
+      overflow: hidden;
+      img{
+      float: right;
+      margin-left: 10px;
+      margin-right: 70px;
+     }
+     p{
+      margin:0 ;
+      font-size: 20px;
      }
 
+     }
+     .habilidades{
+      overflow: hidden;
+      img{
+      float: right;
+      margin-left: 100px;
+      margin-top: -220px;
+      margin-right: 70px;
+     }
+     p{
+      margin: 0 ;
+      font-size: 20px;
+      
+     }
+
+
+     }
+
+    .menu{
+      margin-top: -80px;
+      li{
+        font-size: 18px;
+      }
+    }
+     
 
     </style>
 </head>
@@ -55,24 +93,38 @@
     <div class="texto_imagem">
     <!--titulo incial da pagina e parágrafos com informações iniciais e cabeçalho da pagina-->
     <header>
-    <h1>Monster Hunter Database</h1>
+     <h1>Monster Hunter Database</h1>
    </div>
- </div>
+  </div>
+    <!--Fazendo uma lista ordenada do Menu da pagina-->
+    <div class="menu">
+     <ol>
+       <li>Infos</li>
+       <li>Monstros</li>
+       <li>Armas</li>
+       <li>Jogos</li>
+       <li>Mapas</li>
+     </ol> 
+    </div>  
     </header>
       <!--Iserindo imagem ultilizando a tag img-->
+
       <h2>Tigrex informações</h2>
-        <img src="../imagens/tigrex.png" alt="tigrex" width="400">
-      <hr>
+        <div class="fisiologia">
+         <img src="../imagens/tigrex.png" alt="tigrex" width="500">
+         <hr>
       <!--Ultilizando hierarquia de titulos com as tag h1, h2 e h3-->
-      <h3>Fisiologia</h3>
-      <p>  Tigrex é um grande wyvern quadrúpede caracterizado por sua cabeça maciça e mandíbulas, possui uma marcante coloração listrada amarela/azul. A parte superior da cabeça<br> é inclinada com um par de orelhas em formato de chifres, e sua cauda segmentada que termina com uma protrusão espinhosa.</p>
+         <h3>Fisiologia</h3>
+          <p>Tigrex é um grande wyvern quadrúpede caracterizado por sua cabeça maciça e mandíbulas, possui uma marcante coloração listrada amarela/azul. A parte superior da cabeça é inclinada com um par de orelhas em formato de chifres, e sua cauda segmentada que termina com uma protrusão espinhosa.</p>
+        </div>
       <hr> 
       <!--Marcando parte de destaque no texto usando a tag mark--> 
+      <div class="habilidades">
       <h3>Habilidades</h3>
-      <p>  Como um wyvern quadrúpede, suas asas evoluíram para as pernas dianteiras, o que permite que ele funcione em velocidades muito rápidas. Embora possua um par de asas<br> adequadamente desenvolvidas, raramente é visto voar no sentido tradicional. Na verdade, é mais propenso a deslizar de local para local. Possui um poderoso conjunto de pulmões<br> que lhe dá a capacidade de produzir rugidos extremamente altos e concusivos que podem danificar fisicamente objetos próximos. Ao contrário de muitos outros monstros, Tigrex<br> não possui nenhum elemento. Em vez disso, depende da sua força bruta para derrubar oponentes. <mark>É possível prender o Tigrex na parede como mostra a imagem abaixo, ao desviar<br> de uma mordida e estando próximo a uma parede ele vai acertar a mordida na parede ao invés de simplesmente errar o ataque, isso dá a oportunidade de desferir vários ataques em<br> Tigrex ou até mesmo cortar sua calda.</mark></p>
+      <p>  Como um wyvern quadrúpede, suas asas evoluíram para as pernas dianteiras, o que permite que ele funcione<br> em velocidades muito rápidas. Embora possua um par de asas adequadamente desenvolvidas, raramente é<br> visto voar no sentido tradicional. Na verdade, é mais propenso a deslizar de local para local. Possui um<br> poderoso conjunto de pulmões que lhe dá a capacidade de produzir rugidos extremamente altos e concusivos<br>  que podem danificar fisicamente objetos próximos. Ao contrário de muitos outros monstros, Tigrex não<br>  possui nenhum elemento. Em vez disso, depende da sua força bruta para derrubar oponentes. <mark>É possível<br> prender o Tigrex na parede como mostra a imagem ao lado, ao desviar de uma mordida e estando próximo<br> a uma parede ele vai acertar a mordida na parede ao invés de simplesmente errar o ataque, isso dá a<br> oportunidade de desferir vários ataques em Tigrex ou até mesmo cortar sua calda.</mark></p>
 
       <img src="../imagens/Tigrex_pedra.PNG" alt="Tigrex_pedra" width="400">
-          
+    </div>
     
   </div>
 </body>
