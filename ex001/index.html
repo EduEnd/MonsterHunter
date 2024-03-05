@@ -82,15 +82,18 @@
         font-size: 18px;
       }
     }
-     
-
     </style>
 </head>
 <body>
  <div id="interface">
    <div class="container">
-    <img src="../imagens/imagem_cabeçalho.jpg" alt="imagem_cabeçalho" width="1343px" height="200">
-    <div class="texto_imagem">
+    <picture>
+     <source media="(max-width: 1050px)" srcset="../imagens/imagem_cabeçalho_G.jpg" type="image/jpeg">
+     <source media="(max-width: 600px)" srcset="../imagens/imagem_cabeçalho_M.jpg" type="image/jpeg">
+     <source media="(max-width: 300px)" srcset="../imagens/imagem_cabeçalho_P.jpg" type="image/jpeg">
+     <img src="../imagens/imagem_cabeçalho_G.jpg" alt="imagem_cabeçalho" style="width: 100%; height: auto;">
+    </picture>
+   <div class="texto_imagem">
     <!--titulo incial da pagina e parágrafos com informações iniciais e cabeçalho da pagina-->
     <header>
      <h1>Monster Hunter Database</h1>
@@ -111,7 +114,12 @@
 
       <h2>Tigrex informações</h2>
         <div class="fisiologia">
-         <img src="../imagens/tigrex.png" alt="tigrex" width="500">
+         <picture>
+           <source media="(max-width:800px)" srcset="../imagens/tigrex_G.png" type="image/jpg">
+           <source media="(max-width:500px)" srcset="../imagens/tigrex_M.png" type="image/jpg">
+           <source media="(max-width:200px)" srcset="../imagens/tigrex_P.png" type="image/jpg"> 
+           <img src="../imagens/tigrex_G.png" alt="tigrex">
+         </picture> 
          <hr>
       <!--Ultilizando hierarquia de titulos com as tag h1, h2 e h3-->
          <h3>Fisiologia</h3>
@@ -123,7 +131,7 @@
       <h3>Habilidades</h3>
       <p>  Como um wyvern quadrúpede, suas asas evoluíram para as pernas dianteiras, o que permite que ele funcione<br> em velocidades muito rápidas. Embora possua um par de asas adequadamente desenvolvidas, raramente é<br> visto voar no sentido tradicional. Na verdade, é mais propenso a deslizar de local para local. Possui um<br> poderoso conjunto de pulmões que lhe dá a capacidade de produzir rugidos extremamente altos e concusivos<br>  que podem danificar fisicamente objetos próximos. Ao contrário de muitos outros monstros, Tigrex não<br>  possui nenhum elemento. Em vez disso, depende da sua força bruta para derrubar oponentes. <mark>É possível<br> prender o Tigrex na parede como mostra a imagem ao lado, ao desviar de uma mordida e estando próximo<br> a uma parede ele vai acertar a mordida na parede ao invés de simplesmente errar o ataque, isso dá a<br> oportunidade de desferir vários ataques em Tigrex ou até mesmo cortar sua calda.</mark></p>
 
-      <img src="../imagens/Tigrex_pedra.PNG" alt="Tigrex_pedra" width="400">
+      <img src="../imagens/Tigrex_pedra_G.PNG" alt="Tigrex_pedra" width="400">
     </div>
     
   </div>
