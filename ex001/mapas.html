@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Adição do favicon para pagina com a tag link sendo usada-->
+    <link rel="shortcut icon" href="../imagens/controle.ico" type="imagem/ico-x">
+
+    <title>Monster Hunter Database Mapas</title>
+    <!--mudanças nas formas, fonts e imagens com a referencia do link a parte de style da pagina estilo.css-->
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+
+</head>
+<body>
+    <!--Ultilizando a tag div para criar conteinrs para facilitar a formatação de partes da pagina--> 
+   <div class="container">
+    <!--ultilizando a tag pictura e source para deixar a imagens responsivas em qualquer dispositivo-->
+    <picture>
+     <source media="(max-width: 1050px)" srcset="../imagens/imagem_cabeçalho_G.jpg" type="image/jpeg">
+     <source media="(max-width: 600px)" srcset="../imagens/imagem_cabeçalho_M.jpg" type="image/jpeg">
+     <source media="(max-width: 300px)" srcset="../imagens/imagem_cabeçalho_P.jpg" type="image/jpeg">
+     <img src="../imagens/imagem_cabeçalho_G.jpg" alt="imagem_cabeçalho" style="width: 100%; height: auto">
+    </picture>
+   <div class="texto_imagem">
+    <!--titulo incial da pagina e parágrafos com informações iniciais e cabeçalho da pagina-->
+    <header>
+     <h1>Monster Hunter Database</h1>
+   </div>
+  </div>
+    <!--Fazendo uma lista ordenada do Menu da pagina-->
+    <div class="menu">
+     <ol>
+      <li>Inicio</li>
+      <li>Monstros</li>
+      <li>Jogos</li>
+      <li><a href="../ex001/mapas.html" target="_self" rel="author">Mapas</a></li>
+      <li><a href="../ex001/armas.html" target="_blank" rel="author">Armas</a></li>
+     </ol> 
+    </div>  
+    </header>
+</body>
+</html>

@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/*Formatação de todas as tags h1 e h2 com tamanho, cor e sombras*/
+h1,h2{ font-family: Verdana;
+    font-size: 36px;
+    color:black;
+    text-shadow: 2px 2px 2px yellow;
+}
+/*Formatação de todas as tags h3 com tamanho e sombra*/
+h3{
+  font-size: 28px;
+  text-shadow: 2px 2px 2px yellow;
+}
+/*Fundo da pagina formatado com cor*/
+body{
+    background-color: rgb(158, 189, 247);
+
+}
+/*Propriedades de  de margem e corpo da pagine e o seu preenchimento*/
+body,html{
+     margin: 0;
+     padding: 0; 
+
+} 
+/*Propriedades de posição do conteiner*/ 
+.container{
+  position: relative;
+}
+/*Propriedades do conteiner texto_imagem e h1 para que o texto fique sempre  sobre a imagem*/
+.texto_imagem h1{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    padding: 20px;
+    text-align: left;
+    margin: 0;
+
+}
+/*Propriedade de margem do conteiner texto_imagem*/
+.texto_imagem{
+    margin: 10px;
+}
+
+/*Propriedades do conteiner fisiologia com formatos de imagens e paragrafos*/
+.fisiologia{
+   overflow: hidden;
+}
+.fisiologia img{
+    float: right;
+    margin-left: 10px;
+    margin-right: 70px;
+}
+.fisiologia p{
+    margin:0 ;
+    font-size: 20px;
+}
+
+/*Propriedades do conteiner habilidades com formatos de imagens e paragrafos*/
+.habilidades{
+    overflow: hidden;
+}
+.habilidades img{
+    float: right;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 70px;
+    border: 1px solid;
+}
+.habilidades p{
+    margin: 0 ;
+    font-size: 20px;
+}
+
+
+/*Propriedades do conteiner comportamento com formatos de imagens e paragrafos*/
+.comportamento{
+   overflow: hidden;
+
+   
+}
+.comportamento img{
+    float: right;
+     margin-left:100px;
+     margin-top: 80px;
+     margin-right: 60px;
+     border: 1px solid;
+}
+.comportamento p{
+        margin: 0 ;
+        font-size: 20px;
+}
+
+/*Formatação do menu com tamanho das fontes da lista e a propriedade de margem*/
+.menu{
+    margin-top: -80px;    
+}
+.menu li{
+    font-size: 18px;
+}
+.trilhaMonstro p{
+    margin: 0 ;
+    font-size: 20px;
+}
