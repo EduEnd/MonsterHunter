@@ -12,50 +12,53 @@
      <link rel="stylesheet" type="text/css" href="../css/estilo.css">
 </head>
 <body>
- <!--Ultilizando a tag div para criar conteinrs para facilitar a formatação de partes da pagina--> 
- <div id="interface">
-   <div class="container">
-    <!--ultilizando a tag pictura e source para deixar a imagens responsivas em qualquer dispositivo-->
-    <picture>
-     <source media="(max-width: 1050px)" srcset="../imagens/imagem_cabeçalho_G.jpg" type="image/jpeg">
-     <source media="(max-width: 600px)" srcset="../imagens/imagem_cabeçalho_M.jpg" type="image/jpeg">
-     <source media="(max-width: 300px)" srcset="../imagens/imagem_cabeçalho_P.jpg" type="image/jpeg">
-     <img src="../imagens/imagem_cabeçalho_G.jpg" alt="imagem_cabeçalho" style="width: 100%; height: auto">
-    </picture>
-   <div class="texto_imagem">
+ <!--Ultilizando a tag div para criar conteinrs para facilitar a formatação de partes da pagina-->  
     <!--titulo incial da pagina e parágrafos com informações iniciais e cabeçalho da pagina-->
     <header>
      <h1>Monster Hunter Database</h1>
-   </div>
-  </div>
-    <!--Fazendo uma lista ordenada do Menu da pagina-->
-    <div class="menu">
-     <ol>
-       <li>Inicio</li>
-       <li>Monstros</li>
-       <li>Jogos</li>
-       <li><a href="../ex001/mapas.html" target="_blank" rel="author">Mapas</a></li>
-       <li><a href="../ex001/armas.html" target="_blank" rel="author">Armas</a></li>
-     </ol> 
-    </div> 
+     <!--Fazendo uma lista ordenada do Menu da pagina-->
+     <div id="menu">
+      <ul>
+        <li><a href="../ex001/index.html" target="_self" rel="author">Inicio</a></li>
+        <li>Monstros</li>
+        <li>Jogos</li>
+        <li><a href="../ex001/mapas.html" target="_blank" rel="author">Mapas</a></li>
+        <li><a href="../ex001/armas.html" target="_blank" rel="author">Armas</a></li>
+      </ul>
+     </div>
     </header>
+ <div class="principal">
       <!--Iserindo imagem ultilizando a tag img-->
 
-      <h2>Tigrex informações</h2>
-        <div class="fisiologia">
+    <h2>Tigrex informações</h2>
+      <h3>Fisiologia</h3>
+      <!--usando a tag section para ultilizarmos a o carrossel de imagens e tag source para tratamento de imagem-->
+      <section class="galeria">
+        <div class="fotos">  
          <picture>
-           <source media="(max-width:800px)" srcset="../imagens/tigrex_G.png" type="image/png">
-           <source media="(max-width:500px)" srcset="../imagens/tigrex_M.png" type="image/png">
-           <source media="(max-width:200px)" srcset="../imagens/tigrex_P.png" type="image/png"> 
-           <img src="../imagens/tigrex_G.png" alt="tigrex">
+           <source media="(max-width:360px)" srcset="../imagens/TigrexMHF2.png" type="image/png"> 
+           <img src="../imagens/TigrexMHF2.png" alt="Foto 1">
          </picture> 
-         <hr>
-
-      <!--Ultilizando hierarquia de titulos com as tag h1, h2 e h3-->
-         <h3>Fisiologia</h3>
-          <p>Tigrex é um grande wyvern quadrúpede caracterizado por sua cabeça maciça e mandíbulas, possui uma marcante coloração listrada amarela/azul. A parte superior da cabeça é inclinada com um par de orelhas em formato de chifres, e sua cauda segmentada que termina com uma protrusão espinhosa.</p>
-        </div>
-      <hr> 
+         <picture>
+           <source media="(max-width:360px)" srcset="../imagens/TigrexMHFU.png" type="image/png"> 
+           <img src="../imagens/TigrexMHFU.png" alt="Foto 2">
+         </picture> 
+         <picture>
+           <source media="(max-width:360px)" srcset="../imagens/TigrexMHRISE.png" type="image/png"> 
+           <img src="../imagens/TigrexMHRISE.png" alt="Foto 3">
+         </picture> 
+         <picture>
+           <source media="(max-width:360px)" srcset="../imagens/TigrexMHW.png" type="image/png"> 
+           <img src="../imagens/TigrexMHW.png" alt="Foto 4">
+         </picture> 
+         <picture>
+           <source media="(max-width:360px)" srcset="../imagens/TigrexMHF2.png" type="image/png"> 
+           <img src="../imagens/TigrexMHF2.png" alt="Foto 1">
+         </picture>
+        </div>    
+      </section>
+    <p>Tigrex é um grande wyvern quadrúpede caracterizado por sua cabeça<br> maciça e mandíbulas, possui uma marcante coloração listrada amarela<br>/azul. A parte superior da cabeça é inclinada com um par de orelhas<br> em formato de chifres, e sua cauda segmentada que termina com uma<br> protrusão espinhosa.</p>
+    <hr> 
 
       <!--Marcando parte de destaque no texto usando a tag mark--> 
       <div class="habilidades">
@@ -66,7 +69,7 @@
          <img src="../imagens/Tigrex_pedra_P.png" alt="Tigrex_pedra">
        </picture> 
       <h3>Habilidades</h3>
-      <p>  Como um wyvern quadrúpede, suas asas evoluíram para as pernas dianteiras, o que permite que ele funcione em velocidades muito rápidas. Embora possua um par de asas adequadamente desenvolvidas, raramente é visto voar no sentido tradicional. Na verdade, é mais propenso a deslizar de local para local. Possui um poderoso conjunto de pulmões que lhe dá a capacidade de produzir rugidos extremamente altos e concusivos  que podem danificar fisicamente objetos próximos. Ao contrário de muitos outros monstros, Tigrex não  possui nenhum elemento. Em vez disso, depende da sua força bruta para derrubar oponentes. <mark>É possível prender o Tigrex na parede como mostra a imagem ao lado, ao desviar de uma mordida e estando próximoa uma parede ele vai acertar a mordida na parede ao invés de simplesmente errar o ataque, isso dá a oportunidade de desferir vários ataques em Tigrex ou até mesmo cortar sua calda.</mark></p>
+      <p>  Como um wyvern quadrúpede, suas asas evoluíram para as pernas dianteiras, o que permite que ele funcione em velocidades muito rápidas. Embora possua um par de asas adequadamente desenvolvidas, raramente é visto voar no sentido tradicional. Na verdade, é mais propenso a deslizar de local para local. Possui um poderoso conjunto de pulmões que lhe dá a capacidade de produzir rugidos extremamente altos e concusivos  que podem danificar fisicamente objetos próximos. Ao contrário de muitos outros monstros, Tigrex não  possui nenhum elemento. Em vez disso, depende da sua força bruta para derrubar oponentes. <mark>É possível prender o Tigrex na parede, ao desviar de uma mordida e estando próximoa uma parede ele vai acertar a mordida na parede ao invés de simplesmente errar o ataque, isso dá a oportunidade de desferir vários ataques em Tigrex ou até mesmo cortar sua calda.</mark></p>
     </div>
     <hr>
 
@@ -78,8 +81,9 @@
         <img src="../imagens/Tigrex_fraqueza_M.jpg" alt="Tigrex fraquezas">
       </picture>
      <h3>Comportamento</h3>
-     <p>O Tigrex geralmente tenta intimidar os possíveis atacantes com um rugido de cortar as orelhas. Se o combate se tornar intenso o suficiente, ele lavará sangue em seus membros anteriores, rosto e olhos, a fim de dar à sua pele um brilho vermelho-vivo como um esforço para intimidar ainda mais os atacantes. Tigrex tem sua maior  ponto fraco sendo na cabeça e os elementos que tem fraqueza são<mark>trovão</mark> e <mark>dragão</mark> a grande maioria das vezes nos jogos.</p>
+     <p>O Tigrex geralmente tenta intimidar os possíveis atacantes com um rugido de cortar as orelhas. Se o combate se tornar intenso o suficiente, ele lavará sangue em seus membros anteriores, rosto e olhos, a fim de dar à sua pele um brilho vermelho-vivo como um esforço para intimidar ainda mais os atacantes. Tigrex tem sua maior  ponto fraco sendo na cabeça e os elementos que tem fraqueza são <mark>trovão</mark> e <mark>dragão</mark> a grande maioria das vezes nos jogos.</p>
   </div>
+  <hr>
   <!--Importando audios usando a tag audio e  suas propriedades-->
   <div class="trilhaMonstro">
    <h3>Trilha sonora do monstro</h3>
@@ -93,7 +97,7 @@
     <source src="../áudios/TigrexThemeRise.mp3" type="audio/mp3">
     <p>Audio não suportado <a href="../áudios/TigrexThemeRise.mp3" download="TigrexThemeRise.mp3.mp3" type="audio/mp3"></a></p>
   </audio>
-  <p>Monster hunter4 World Iceborn</p>
+  <p>Monster hunter World Iceborn</p>
   <audio preload="metadata" controls autoplay loop>
     <source src="../áudios/TigrexThemeWib.mp3" type="audio/mp3">
     <p>Audio não suportado <a href="../áudios/TigrexThemeWib.mp3" download="TigrexThemeWib.mp3" type="audio/mp3"></a></p>
