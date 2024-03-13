@@ -57,7 +57,7 @@
     position:absolute;
     top: 30px;
     right: -10px;
-    background-color:aqua;
+    background-color: rgba(109, 153, 247, 0.75);
     color: rgb(164, 177, 206,0.75); 
     border-radius:100%;
     width: 20px;
@@ -101,8 +101,15 @@
     left: 0;
     width: 5%;
     height: 100%;
-
 }
+@media only screen and (max-width: 400px) {
+    #sidebar {
+
+        margin-right: 0; 
+        height: auto; 
+    }
+}
+
 /*Formato do tamanho manimo do sidebar e formato do menu de itens*/
 #sidebar.abri-sidebar{
     min-width:15%;

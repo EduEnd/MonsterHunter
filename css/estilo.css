@@ -133,6 +133,12 @@ p{
     background-position: center;
     margin-left: 100px;
 }
+
+@media only screen and (max-width: 600px) {
+    .principal {
+        margin-left: 0; 
+    }
+}
 /*Propriedades da galeria de fotos e  criação da animção do carrossel de fotos*/
 .galeria{
     width: 100%;
