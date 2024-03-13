@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/*Formatação do menu com tamanho das fontes da lista e a propriedade de margem*/
+
+/*Formato dos itens do menu para ficarem ordenados em coluna*/   
+#menu_itens{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: none;
+    padding: 14px;
+ }
+ /*Distancia da borda dos itens e adição do cursor clicavel*/ 
+.menu-item{
+    border-radius: 8px;
+    padding: 14px;
+    cursor: pointer;
+ }
+ /*Formato da tag ancor*/ 
+.menu-item a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+}
+/*Formato da cor quando estiver  sobre um ancor*/ 
+.menu-item a:hover{
+    color: rgb(209, 198, 45);
+    text-shadow: 0 0 0px rgb(206, 195, 39) ;
+}
+/*Tamanho e fonte dos itens*/ 
+.menu-item p{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+}
+/*Alinhando os itens ancor no centro*/ 
+.menu-item a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+}
+/*Itens não selecionados irão passar a ter essa cor*/ 
+.menu-item:hover:not(.active){
+    background-color: rgb(164, 177, 206,0.75);
+
+}
+#sidebar h1 {
+    margin: 10px; 
+    text-align: center; 
+    object-fit: cover;
+}
+/*Formato do botao que abre o sidebar na tela*/ 
+#abri_btn{
+    position:absolute;
+    top: 30px;
+    right: -10px;
+    background-color:aqua;
+    color: rgb(164, 177, 206,0.75); 
+    border-radius:100%;
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+}
+/*Transição do botao do sidebar*/ 
+#abri_btn_icon {
+    transition: transform .3s ease;
+}
+/*Mudando botao pro lado oposto apos abrir o sidebar*/
+.abri-sidebar #abri_btn_icon {
+    transform: rotate(180deg);
+}
+/*Formato do nomes dos itens e do menu do sidebar*/
+.item-descricao{
+    width: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    transition: width .6s;
+    height: 0px;
+
+}
+/*Formato do sidebar*/
+#sidebar{
+    justify-content: space-between;   
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(59, 91, 177);
+    height: 100vh;
+    position: relative;
+    transition: all .5s;
+    min-width: 50px;
+    margin-right: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 5%;
+    height: 100%;
+
+}
+/*Formato do tamanho manimo do sidebar e formato do menu de itens*/
+#sidebar.abri-sidebar{
+    min-width:15%;
+    height: 100vh;
+}
+#sidebar.abri-sidebar .item-descricao{
+    width:80px;
+    height: auto;
+}
+#sidebar.abri-sidebar .menu-item a{
+    justify-content: flex-start;
+    gap: 14px;
+}
+
+/* Responsividade do menu */
+@media only screen and (max-width: 600px) {
+    #menu {
+        flex-direction: column; 
+        align-items: flex-end; 
+    }
+
+    #menu li {
+        margin-left: 0; 
+        margin-bottom: 5px;
+    }
+}

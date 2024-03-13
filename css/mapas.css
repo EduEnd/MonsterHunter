@@ -1,0 +1,45 @@
+/*paramentros dos mapas para deixar imagens responsivas e enquadradas no layot*/
+.foresthills img{
+    display: block;
+    margin: 0 auto; 
+    border: 1px solid;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 3px 3px 5px gray; 
+}
+
+.jungle img{
+    display: block;
+    margin: 0 auto; 
+    border: 1px solid;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 3px 3px 5px gray; 
+}
+
+.desert img{
+    display: block;
+    margin: 0 auto; 
+    border: 1px solid;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 3px 3px 5px gray; 
+}
+
+.swamp img{
+    display: block;
+    margin: 0 auto; 
+    border: 1px solid;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 3px 3px 5px gray; 
+}
+
+.vulcano img{
+    display: block;
+    margin: 0 auto; 
+    border: 1px solid;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 3px 3px 5px gray; 
+}
