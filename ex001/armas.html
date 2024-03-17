@@ -10,92 +10,105 @@
 
     <title>Monster Hunter Database</title>
     <!--mudanças nas formas, fonts e imagens com a referencia do link a parte de style da pagina estilo.css-->
-     <link rel="stylesheet" type="text/css" href="../css/estilo.css">
-     <link rel="stylesheet" type="text/css" href="../css/menu.css">
+      <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+      <link rel="stylesheet" type="text/css" href="../css/menu.css">
 </head>
-<body> 
- <!--Ultilizando a tag div para criar conteinrs para facilitar a formatação de partes da pagina-->  
+<body>
+
+  <!--Ultilizando a tag div para criar conteinrs para facilitar a formatação de partes da pagina-->  
     <!--titulo incial da pagina e parágrafos com informações iniciais e cabeçalho da pagina-->
     <header>    
-     <!--Menu da pagina da pagina ultilizando lista desordenada e span para manipulacao  do itens do menu-->
-     <nav id="sidebar">   
+      <!--Menu da pagina da pagina ultilizando lista desordenada e span para manipulacao  do itens do menu-->
+      <nav id="sidebar">   
         <div id="menu">
           <h1>Monster Hunter Freedom Unite Database</h1>
           <ul id="menu_itens">
-           <li class="menu-item"><a href="../ex001/index.html" target="_blank" rel="author">
-             <i class="fa-solid fa-house"></i>
-               <span class="item-descricao">
-                 Inicio
-               </span>
+            <li class="menu-item"><a href="../ex001/index.html" target="_blank" rel="author">
+              <i class="fa-solid fa-house"></i>
+                <span class="item-descricao">
+                  Inicio
+                </span>
               </a>
-           </li>
-           <li class="menu-item"><a href="#" target="_blank" rel="author">
-             <i class="fa-solid fa-book"></i>
-               <span class="item-descricao">
-                 Monstros
-               </span>
+            </li>
+            <li class="menu-item"><a href="#" target="_blank" rel="author">
+              <i class="fa-solid fa-book"></i>
+                <span class="item-descricao">
+                  Monstros
+                </span>
               </a>
-           </li>
-           <li class="menu-item"><a href="#" target="_self" rel="author">
+            </li>
+            <li class="menu-item"><a href="#" target="_self" rel="author">
             <i class="fa-solid fa-book-open"></i>
               <span class="item-descricao">
                 Quests
               </span>
-             </a>
+              </a>
           </li>
-           <li class="menu-item"><a href="../ex001/armas.html" target="_self" rel="author">
-             <i class="fa-solid fa-gavel"></i>
-               <span class="item-descricao">
-                 Armas
-               </span>
+            <li class="menu-item"><a href="../ex001/armas.html" target="_self" rel="author">
+              <i class="fa-solid fa-gavel"></i>
+                <span class="item-descricao">
+                  Armas
+                </span>
               </a>
-           </li>
-           <li class="menu-item"><a href="#" target="_blank" rel="author">
-             <i class="fa-solid fa-shield-halved"></i>
-               <span class="item-descricao">
-                 Armaduras
-               </span>
+            </li>
+            <li class="menu-item"><a href="#" target="_blank" rel="author">
+              <i class="fa-solid fa-shield-halved"></i>
+                <span class="item-descricao">
+                  Armaduras
+                </span>
               </a>
-           </li>
-           <li class="menu-item"><a href="#" target="_blank" rel="author">
-             <i class="fa-solid fa-flask"></i>
-               <span class="item-descricao">
-                 Itens
-               </span>
+            </li>
+            <li class="menu-item"><a href="#" target="_blank" rel="author">
+              <i class="fa-solid fa-flask"></i>
+                <span class="item-descricao">
+                  Itens
+                </span>
               </a>
-           </li>
-           <li class="menu-item"><a href="#" target="_self" rel="author">
+            </li>
+            <li class="menu-item"><a href="#" target="_self" rel="author">
             <i class="fa-solid fa-star-of-life"></i>
               <span class="item-descricao">
                 Skills
               </span>
-             </a>
+              </a>
           </li> 
-           <li class="menu-item"><a href="../ex001/mapas.html" target="_blank" rel="author">
-             <i class="fa-solid fa-map"></i>
-               <span class="item-descricao">
-                 Mapas
-               </span>
+            <li class="menu-item"><a href="../ex001/mapas.html" target="_blank" rel="author">
+              <i class="fa-solid fa-map"></i>
+                <span class="item-descricao">
+                  Mapas
+                </span>
               </a>
-           </li>     
-           <li class="menu-item"><a href="#" target="_blank" rel="author">
-             <i class="fa-solid fa-gem"></i>
-               <span class="item-descricao">
-                 Decorações
-               </span>
+            </li>     
+            <li class="menu-item"><a href="#" target="_blank" rel="author">
+              <i class="fa-solid fa-gem"></i>
+                <span class="item-descricao">
+                  Decorações
+                </span>
               </a>
-           </li>
-         </ul>
+            </li>
+          </ul>
         <!--botao usando a tag button para o icone que vai abrir e fechar o sidebar--> 
-       <button id="abri_btn">
-         <i id="abri_btn_icon" class="fa-solid fa-chevron-right"></i>
-       </button>
+        <button id="abri_btn">
+          <i id="abri_btn_icon" class="fa-solid fa-chevron-right"></i>
+        </button>
       </div>
     </nav>
     </header>
- <div class="principal">
- </div>
- <!--chamada do script para o sidebar funcionar-->
- <script src="../scripts/script.js"></script>
+  <div class="principal">
+    <div class="buscar-box">
+      <div class="lupa-buscar">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="input-buscar">
+          <input type="text" name="" id="" placeholder="Buscar...">
+      </div>
+      <div class="btn-fechar">
+        <i class="fa-solid fa-circle-xmark"></i>
+      </div>
+    </div> 
+  </div>
+  
+  <!--chamada do script para o sidebar funcionar-->
+  <script src="../scripts/script.js"></script>
 </body>
 </html>

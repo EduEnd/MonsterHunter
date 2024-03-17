@@ -10,108 +10,119 @@
 
     <title>Monster Hunter Database</title>
     <!--mudanças nas formas, fonts e imagens com a referencia do link a parte de style da pagina estilo.css-->
-     <link rel="stylesheet" type="text/css" href="../css/estilo.css">
-     <link rel="stylesheet" type="text/css" href="../css/mapas.css">
-     <link rel="stylesheet" type="text/css" href="../css/menu.css">
+      <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+      <link rel="stylesheet" type="text/css" href="../css/mapas.css">
+      <link rel="stylesheet" type="text/css" href="../css/menu.css">
     </head>
-    <body>   
-     <!--Ultilizando a tag div para criar conteinrs para facilitar a formatação de partes da pagina-->  
+    <body> 
+      <!--Ultilizando a tag div para criar conteinrs para facilitar a formatação de partes da pagina-->  
         <!--titulo incial da pagina e parágrafos com informações iniciais e cabeçalho da pagina-->
         <header>    
-         <!--Menu da pagina da pagina ultilizando lista desordenada e span para manipulacao  do itens do menu-->
-         <nav id="sidebar">   
+          <!--Menu da pagina da pagina ultilizando lista desordenada e span para manipulacao  do itens do menu-->
+          <nav id="sidebar">   
             <div id="menu">
               <h1>Monster Hunter Freedom Unite Database</h1>
               <ul id="menu_itens">
-               <li class="menu-item"><a href="../ex001/index.html" target="_blank" rel="author">
-                 <i class="fa-solid fa-house"></i>
-                   <span class="item-descricao">
-                     Inicio
-                   </span>
+                <li class="menu-item"><a href="../ex001/index.html" target="_blank" rel="author">
+                  <i class="fa-solid fa-house"></i>
+                    <span class="item-descricao">
+                      Inicio
+                    </span>
                   </a>
-               </li>
-               <li class="menu-item"><a href="#" target="_blank" rel="author">
-                 <i class="fa-solid fa-book"></i>
-                   <span class="item-descricao">
-                     Monstros
-                   </span>
+                </li>
+                <li class="menu-item"><a href="#" target="_blank" rel="author">
+                  <i class="fa-solid fa-book"></i>
+                    <span class="item-descricao">
+                      Monstros
+                    </span>
                   </a>
-               </li>
-               <li class="menu-item"><a href="#" target="_self" rel="author">
+                </li>
+                <li class="menu-item"><a href="#" target="_self" rel="author">
                 <i class="fa-solid fa-book-open"></i>
                   <span class="item-descricao">
                     Quests
                   </span>
-                 </a>
+                  </a>
               </li>
-               <li class="menu-item"><a href="../ex001/armas.html" target="_blank" rel="author">
-                 <i class="fa-solid fa-gavel"></i>
-                   <span class="item-descricao">
-                     Armas
-                   </span>
+                <li class="menu-item"><a href="../ex001/armas.html" target="_blank" rel="author">
+                  <i class="fa-solid fa-gavel"></i>
+                    <span class="item-descricao">
+                      Armas
+                    </span>
                   </a>
-               </li>
-               <li class="menu-item"><a href="#" target="_blank" rel="author">
-                 <i class="fa-solid fa-shield-halved"></i>
-                   <span class="item-descricao">
-                     Armaduras
-                   </span>
+                </li>
+                <li class="menu-item"><a href="#" target="_blank" rel="author">
+                  <i class="fa-solid fa-shield-halved"></i>
+                    <span class="item-descricao">
+                      Armaduras
+                    </span>
                   </a>
-               </li>
-               <li class="menu-item"><a href="#" target="_blank" rel="author">
-                 <i class="fa-solid fa-flask"></i>
-                   <span class="item-descricao">
-                     Itens
-                   </span>
+                </li>
+                <li class="menu-item"><a href="#" target="_blank" rel="author">
+                  <i class="fa-solid fa-flask"></i>
+                    <span class="item-descricao">
+                      Itens
+                    </span>
                   </a>
-               </li>
-               <li class="menu-item"><a href="#" target="_self" rel="author">
+                </li>
+                <li class="menu-item"><a href="#" target="_self" rel="author">
                 <i class="fa-solid fa-star-of-life"></i>
                   <span class="item-descricao">
                     Skills
                   </span>
-                 </a>
+                  </a>
               </li> 
-               <li class="menu-item"><a href="../ex001/mapas.html" target="_self" rel="author">
-                 <i class="fa-solid fa-map"></i>
-                   <span class="item-descricao">
-                     Mapas
-                   </span>
+                <li class="menu-item"><a href="../ex001/mapas.html" target="_self" rel="author">
+                  <i class="fa-solid fa-map"></i>
+                    <span class="item-descricao">
+                      Mapas
+                    </span>
                   </a>
-               </li>     
-               <li class="menu-item"><a href="#" target="_blank" rel="author">
-                 <i class="fa-solid fa-gem"></i>
-                   <span class="item-descricao">
-                     Decorações
-                   </span>
+                </li>     
+                <li class="menu-item"><a href="#" target="_blank" rel="author">
+                  <i class="fa-solid fa-gem"></i>
+                    <span class="item-descricao">
+                      Decorações
+                    </span>
                   </a>
-               </li>
-             </ul>
+                </li>
+              </ul>
             <!--botao usando a tag button para o icone que vai abrir e fechar o sidebar--> 
-           <button id="abri_btn">
-             <i id="abri_btn_icon" class="fa-solid fa-chevron-right"></i>
-           </button>
+            <button id="abri_btn">
+              <i id="abri_btn_icon" class="fa-solid fa-chevron-right"></i>
+            </button>
           </div>
         </nav>
         </header>
- <div class="principal">
- <!--Parte de mapas da pagina--> 
-   <h2>Mapas</h2>
-   <!--Conteiner foresthills contendo sua imagem, audio responsivos com descrição do mapa da imagem-->
+  <div class="principal">
+    <div class="buscar-box">
+      <div class="lupa-buscar">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="input-buscar">
+          <input type="text" name="" id="" placeholder="Buscar...">
+      </div>
+      <div class="btn-fechar">
+        <i class="fa-solid fa-circle-xmark"></i>
+      </div>
+    </div> 
+  <!--Parte de mapas da pagina--> 
+    <h2>Mapas</h2>
+    <!--Conteiner foresthills contendo sua imagem, audio responsivos com descrição do mapa da imagem-->
     <div class="foresthills">
-     <h3>Forest and Hills</h3>
-     <picture>
+      <h3>Forest and Hills</h3>
+      <picture>
       <source media="(max-width: 360px)" srcset="../imagens/Forest_hills_P.jpg" type="image/jpg">
       <source media="(max-width: 520px)" srcset="../imagens/Forest_hills_M.jpg" type="image/jpg">
       <source media="(max-width: 800px)" srcset="../imagens/Forest_hills_G.jpg" type="image/jpg">
       <img src="../imagens/Forest_hills_G.jpg" alt="Forest hills">
-     </picture>
+      </picture>
 
-     <audio preload="metadata" controls autoplay loop>
+      <audio preload="metadata" controls autoplay loop>
       <source src="../áudios/Forest_and_Hills.mp3" type="audio/mp3">
       <p>Audio não suportado <a href="../áudios/Forest_and_Hills.mp3" download="Forest_and_Hills.mp3" type="audio/mp3"></a></p>
-     </audio>
-     <p>A floresta e as colinas são um local recorrente na série Monster Hunter, introduzido no primeiro jogo e aparecendo em todas as sequências da 1ª e 2ª geração, antes de retornar mais recentemente em Monster Hunter Generations, conhecido como Verdant Hills.
+    </audio>
+      <p>A floresta e as colinas são um local recorrente na série Monster Hunter, introduzido no primeiro jogo e aparecendo em todas as sequências da 1ª e 2ª geração, antes de retornar mais recentemente em Monster Hunter Generations, conhecido como Verdant Hills.
 
       É constituída, como o próprio nome indica, por florestas profundas e colinas altas, possuindo um clima globalmente temperado. Os herbívoros Aptonoth e Kelbi vagam pelas colinas, pois o local possui folhagem abundante, junto com matilhas de Velociprey e seu líder, Velocidrome. 
       Embora esta zona possa parecer perfeita para caçadores novatos, não é totalmente isenta de perigos; Rathalos e Rathian são comumente vistos nidificando nos penhascos mais altos, enquanto Yian Kut-Ku, Gypceros, Yian Garuga e até mesmo Dragões Anciões como Chameleos também habitam este local.</p>
@@ -119,19 +130,19 @@
     <hr>
     <!--Conteiner jungle contendo sua imagem e audio responsivos com descrição do mapa da imagem-->
     <div class="jungle">
-     <h3>Jungle</h3>
-     <picture>
+      <h3>Jungle</h3>
+    <picture>
       <source media="(max-width: 360px)" srcset="../imagens/jungle_P.jpg" type="image/jpg">
       <source media="(max-width: 520px)" srcset="../imagens/jungle_M.jpg" type="image/jpg">
       <source media="(max-width: 800px)" srcset="../imagens/jungle_G.jpg" type="image/jpg">
       <img src="../imagens/jungle_G.jpg" alt="Jungle">
-     </picture>
+    </picture>
 
-     <audio preload="metadata" controls autoplay loop>
+    <audio preload="metadata" controls autoplay loop>
       <source src="../áudios/Jungle.mp3" type="audio/mp3">
       <p>Audio não suportado <a href="../áudios/Jungle.mp3" download="Jungle.mp3" type="audio/mp3"></a></p>
-     </audio>
-     <p>A Selva Velha, também conhecida como Floresta Tropical, é um local introduzido em Monster Hunter, caracterizado por vegetação densa que inibe a visibilidade, rios e cavernas frias cheias de água na altura dos tornozelos. 
+    </audio>
+    <p>A Selva Velha, também conhecida como Floresta Tropical, é um local introduzido em Monster Hunter, caracterizado por vegetação densa que inibe a visibilidade, rios e cavernas frias cheias de água na altura dos tornozelos. 
       Este ambiente hostil é o lar de muitos monstros, como Yian Kut-Ku, Khezu, Gypceros e Plesioth.
       
       Este local tem uma grande quantidade de locais para coleta de cogumelos e insetos, pode-se seguir os Mosswines enquanto eles tendem a seguir em direção aos locais de cogumelos.</p> 
@@ -139,19 +150,19 @@
     <hr>
     <!--Conteiner desert contendo sua imagem e audio responsivos com descrição do mapa da imagem-->
     <div class="desert">
-     <h3>Desert</h3>
-     <picture>
-      <source media="(max-width: 360px)" srcset="../imagens/desert_P.jpg" type="image/jpg">
+    <h3>Desert</h3>
+      <picture>
+        <source media="(max-width: 360px)" srcset="../imagens/desert_P.jpg" type="image/jpg">
       <source media="(max-width: 520px)" srcset="../imagens/desert_M.jpg" type="image/jpg">
       <source media="(max-width: 800px)" srcset="../imagens/desert_G.jpg" type="image/jpg">
       <img src="../imagens/desert_G.jpg" alt="Desert">
-     </picture> 
+    </picture> 
 
-     <audio preload="metadata" controls autoplay loop>
+    <audio preload="metadata" controls autoplay loop>
       <source src="../áudios/Desert.mp3" type="audio/mp3">
       <p>Audio não suportado <a href="../áudios/Desert.mp3" download="Desert.mp3" type="audio/mp3"></a></p>
-     </audio>
-     <p>Conhecido como o antigo deserto, este é um habitat implacável introduzido em Monster Hunter. Grande parte do mapa consiste em desfiladeiros altos e rochosos ou desertos baixos e arenosos. Possui vida vegetal esparsa, além de locais limitados de mineração e pesca. O calor extremo em algumas áreas exige o uso de uma bebida gelada, mas também existem áreas arenosas mais frescas, bem como uma caverna fria. A área reaparece em Monster Hunter 4 Ultimate, conhecida como Dunas.</p> 
+    </audio>
+    <p>Conhecido como o antigo deserto, este é um habitat implacável introduzido em Monster Hunter. Grande parte do mapa consiste em desfiladeiros altos e rochosos ou desertos baixos e arenosos. Possui vida vegetal esparsa, além de locais limitados de mineração e pesca. O calor extremo em algumas áreas exige o uso de uma bebida gelada, mas também existem áreas arenosas mais frescas, bem como uma caverna fria. A área reaparece em Monster Hunter 4 Ultimate, conhecida como Dunas.</p> 
     </div>
     <hr>
     <!--Conteiner swamp contendo sua imagem e audio responsivos com descrição do mapa da imagem--> 
@@ -162,12 +173,12 @@
         <source media="(max-width: 520px)" srcset="../imagens/swamp_M.jpg" type="image/jpg">
         <source media="(max-width: 800px)" srcset="../imagens/swamp_G.jpg" type="image/jpg">
         <img src="../imagens/swamp_G.jpg" alt="Desert">
-       </picture>
+      </picture>
 
-       <audio preload="metadata" controls autoplay loop>
+      <audio preload="metadata" controls autoplay loop>
         <source src="../áudios/Swamp.mp3" type="audio/mp3">
         <p>Audio não suportado <a href="../áudios/Swamp.mp3" download="Swamp.mp3" type="audio/mp3"></a></p>
-       </audio>
+      </audio>
       <p>O Velho Pântano apareceu pela primeira vez em Monster Hunter. É um grande pântano com inúmeras grutas e uma paisagem muito húmida. A neblina densa pode diminuir a visibilidade em algumas áreas. Em outras áreas, o solo é muito mole para estabelecer armadilhas de queda.
 
         As numerosas cavernas, embora congeladas, guardam grandes aglomerados de belos cristais. Nas áreas do Noroeste, pode-se ouvir o trovão de uma tempestade distante. O Velho Pântano está repleto de nós de insetos, bem como numerosos locais de coleta de plantas e cogumelos. Na maioria das áreas deste ambiente, uma tonalidade azul é visível no céu e na neblina.</p>
@@ -181,19 +192,19 @@
         <source media="(max-width: 520px)" srcset="../imagens/vulcao_M.jpg" type="image/jpg">
         <source media="(max-width: 800px)" srcset="../imagens/vulcao_G.jpg" type="image/jpg">
         <img src="../imagens/vulcao_G.jpg" alt="Vulcano">
-       </picture>
-       
-       <audio preload="metadata" controls autoplay loop>
+      </picture>
+
+      <audio preload="metadata" controls autoplay loop>
         <source src="../áudios/Volcano.mp3" type="audio/mp3">
         <p>Audio não suportado <a href="../áudios/Volcano.mp3" download="Volcano.mp3" type="audio/mp3"></a></p>
-       </audio>
+      </audio>
       <p>A antiga localização do Vulcão apareceu pela primeira vez em Monster Hunter. Consiste em um vulcão ativo e na área circundante, também é chamado de Cinturão Vulcânico. Os caçadores começam na base da montanha e podem viajar pelo centro fundido. Depois de emergirem das cavernas, eles podem começar a perigosa subida até o pico. O calor fulminante exige que os caçadores usem bebidas geladas se quiserem se aventurar nesta terra. Os caçadores também devem ter cuidado com rochas estranhas que podem explodir violentamente quando danificadas. Os danos podem ocorrer com impactos físicos ou se uma bomba de barril ou outro ataque explosivo (como uma bola de fogo de Rathalos ou uma onda de calor de Gravios) detonar perto da rocha.
 
         Devido à pouca vegetação encontrada, o vulcão abriga apenas as criaturas mais vigorosas, incluindo os Basarios, Gravios, Azure Rathalos, Yian Kut-Ku, Iodrome e Shogun Ceanataur. A vegetação baixa também significa má coleta de ervas e insetos. Estas duas deficiências são, no entanto, superadas por uma abundância absolutamente esmagadora de minérios e minerais a serem extraídos. O Vulcão também é onde as Pólvoras são coletadas para a Guilda.</p>
     </div>
     <hr>
 
- </div>
+  </div>
   <!--chamada do script para o sidebar funcionar-->
   <script src="../scripts/script.js"></script>
 </body>

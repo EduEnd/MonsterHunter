@@ -10,90 +10,101 @@
 
     <title>Monster Hunter Database</title>
     <!--mudanças nas formas, fonts e imagens com a referencia do link a parte de style da pagina estilo.css-->
-     <link rel="stylesheet" type="text/css" href="../css/estilo.css">
-     <link rel="stylesheet" type="text/css" href="../css/menu.css">
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="../css/menu.css">
 </head>
 <body>  
- <!--Ultilizando a tag div para criar conteinrs para facilitar a formatação de partes da pagina-->  
+  <!--Ultilizando a tag div para criar conteinrs para facilitar a formatação de partes da pagina-->  
     <!--titulo incial da pagina e parágrafos com informações iniciais e cabeçalho da pagina-->
     <header>    
-     <!--Menu da pagina da pagina ultilizando lista desordenada e span para manipulacao  do itens do menu-->
-     <nav id="sidebar">   
+    <!--Menu da pagina da pagina ultilizando lista desordenada e span para manipulacao  do itens do menu-->
+    <nav id="sidebar">   
         <div id="menu">
           <h1>Monster Hunter Freedom Unite Database</h1>
           <ul id="menu_itens">
-           <li class="menu-item"><a href="../ex001/index.html" target="_self" rel="author">
-             <i class="fa-solid fa-house"></i>
-               <span class="item-descricao">
-                 Inicio
-               </span>
+          <li class="menu-item"><a href="../ex001/index.html" target="_self" rel="author">
+            <i class="fa-solid fa-house"></i>
+              <span class="item-descricao">
+                Inicio
+              </span>
               </a>
-           </li>
-           <li class="menu-item"><a href="#" target="_blank" rel="author">
-             <i class="fa-solid fa-book"></i>
-               <span class="item-descricao">
-                 Monstros
-               </span>
+          </li>
+          <li class="menu-item"><a href="#" target="_blank" rel="author">
+            <i class="fa-solid fa-book"></i>
+              <span class="item-descricao">
+                Monstros
+              </span>
               </a>
-           </li>
-           <li class="menu-item"><a href="#" target="_self" rel="author">
+          </li>
+          <li class="menu-item"><a href="#" target="_self" rel="author">
             <i class="fa-solid fa-book-open"></i>
               <span class="item-descricao">
                 Quests
               </span>
-             </a>
+            </a>
           </li>
-           <li class="menu-item"><a href="../ex001/armas.html" target="_blank" rel="author">
-             <i class="fa-solid fa-gavel"></i>
-               <span class="item-descricao">
-                 Armas
-               </span>
+          <li class="menu-item"><a href="../ex001/armas.html" target="_blank" rel="author">
+            <i class="fa-solid fa-gavel"></i>
+              <span class="item-descricao">
+                Armas
+              </span>
               </a>
-           </li>
-           <li class="menu-item"><a href="#" target="_blank" rel="author">
-             <i class="fa-solid fa-shield-halved"></i>
-               <span class="item-descricao">
-                 Armaduras
-               </span>
+          </li>
+          <li class="menu-item"><a href="#" target="_blank" rel="author">
+            <i class="fa-solid fa-shield-halved"></i>
+              <span class="item-descricao">
+                Armaduras
+              </span>
               </a>
-           </li>
-           <li class="menu-item"><a href="#" target="_blank" rel="author">
-             <i class="fa-solid fa-flask"></i>
-               <span class="item-descricao">
-                 Itens
-               </span>
+          </li>
+          <li class="menu-item"><a href="#" target="_blank" rel="author">
+            <i class="fa-solid fa-flask"></i>
+              <span class="item-descricao">
+                Itens
+              </span>
               </a>
-           </li>
-           <li class="menu-item"><a href="#" target="_self" rel="author">
+          </li>
+          <li class="menu-item"><a href="#" target="_self" rel="author">
             <i class="fa-solid fa-star-of-life"></i>
               <span class="item-descricao">
                 Skills
               </span>
-             </a>
+            </a>
           </li> 
-           <li class="menu-item"><a href="../ex001/mapas.html" target="_blank" rel="author">
-             <i class="fa-solid fa-map"></i>
-               <span class="item-descricao">
-                 Mapas
-               </span>
+          <li class="menu-item"><a href="../ex001/mapas.html" target="_blank" rel="author">
+            <i class="fa-solid fa-map"></i>
+              <span class="item-descricao">
+                Mapas
+              </span>
               </a>
-           </li>     
-           <li class="menu-item"><a href="#" target="_blank" rel="author">
-             <i class="fa-solid fa-gem"></i>
-               <span class="item-descricao">
-                 Decorações
-               </span>
-              </a>
-           </li>
-         </ul>
+          </li>     
+          <li class="menu-item"><a href="#" target="_blank" rel="author">
+            <i class="fa-solid fa-gem"></i>
+              <span class="item-descricao">
+                  Decorações
+                </span>
+                </a>
+            </li>
+          </ul>
         <!--botao usando a tag button para o icone que vai abrir e fechar o sidebar--> 
-       <button id="abri_btn">
-         <i id="abri_btn_icon" class="fa-solid fa-chevron-right"></i>
-       </button>
+        <button id="abri_btn">
+          <i id="abri_btn_icon" class="fa-solid fa-chevron-right"></i>
+        </button>
       </div>
     </nav>
     </header>
- <div class="principal">
+  <div class="principal">
+    <div class="buscar-box">
+      <div class="lupa-buscar">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="input-buscar">
+          <input type="text" name="" id="" placeholder="Buscar...">
+      </div>
+      <div class="btn-fechar">
+        <i class="fa-solid fa-circle-xmark"></i>
+      </div>
+    </div> 
       <!--Iserindo imagem ultilizando a tag img-->
 
     <h2>Tigrex informações</h2>
@@ -101,31 +112,31 @@
       <!--usando a tag section para ultilizarmos a o carrossel de imagens e tag source para tratamento de imagem-->
       <section class="galeria">
         <div class="fotos">  
-         <picture>
-           <source media="(max-width:360px)" srcset="../imagens/TigrexMHF2_P.png" type="image/png">
-           <source media="(max-width:520px)" srcset="../imagens/TigrexMHF2_M.png" type="image/png">  
-           <img src="../imagens/TigrexMHF2_G.png" alt="Foto 1">
-         </picture> 
-         <picture>
-           <source media="(max-width:360px)" srcset="../imagens/TigrexMHFU_P.png" type="image/png">
-           <source media="(max-width:520px)" srcset="../imagens/TigrexMHFU_M.png" type="image/png">  
-           <img src="../imagens/TigrexMHFU_G.png" alt="Foto 2">
-         </picture> 
-         <picture>
-           <source media="(max-width:360px)" srcset="../imagens/TigrexMHRISE_P.png" type="image/png">
-           <source media="(max-width:520px)" srcset="../imagens/TigrexMHRISE_M.png" type="image/png">  
-           <img src="../imagens/TigrexMHRISE_G.png" alt="Foto 3">
-         </picture> 
-         <picture>
-           <source media="(max-width:360px)" srcset="../imagens/TigrexMHW_P.png" type="image/png">
-           <source media="(max-width:520px)" srcset="../imagens/TigrexMHW_M.png" type="image/png"> 
-           <img src="../imagens/TigrexMHW_G.png" alt="Foto 4">
-         </picture> 
-         <picture>
+        <picture>
+          <source media="(max-width:360px)" srcset="../imagens/TigrexMHF2_P.png" type="image/png">
+          <source media="(max-width:520px)" srcset="../imagens/TigrexMHF2_M.png" type="image/png">  
+          <img src="../imagens/TigrexMHF2_G.png" alt="Foto 1">
+        </picture> 
+        <picture>
+          <source media="(max-width:360px)" srcset="../imagens/TigrexMHFU_P.png" type="image/png">
+          <source media="(max-width:520px)" srcset="../imagens/TigrexMHFU_M.png" type="image/png">  
+          <img src="../imagens/TigrexMHFU_G.png" alt="Foto 2">
+        </picture> 
+        <picture>
+          <source media="(max-width:360px)" srcset="../imagens/TigrexMHRISE_P.png" type="image/png">
+          <source media="(max-width:520px)" srcset="../imagens/TigrexMHRISE_M.png" type="image/png">  
+          <img src="../imagens/TigrexMHRISE_G.png" alt="Foto 3">
+        </picture> 
+        <picture>
+          <source media="(max-width:360px)" srcset="../imagens/TigrexMHW_P.png" type="image/png">
+          <source media="(max-width:520px)" srcset="../imagens/TigrexMHW_M.png" type="image/png"> 
+          <img src="../imagens/TigrexMHW_G.png" alt="Foto 4">
+        </picture> 
+        <picture>
           <source media="(max-width:360px)" srcset="../imagens/TigrexMHF2_P.png" type="image/png">
           <source media="(max-width:520px)" srcset="../imagens/TigrexMHF2_M.png" type="image/png">  
           <img src="../imagens/TigrexMHF2.png_G" alt="Foto 1">
-         </picture>
+        </picture>
         </div>    
       </section>
     <p>Tigrex é um grande wyvern quadrúpede caracterizado por sua cabeça maciça e mandíbulas, possui uma marcante coloração listrada amarela/azul. A parte superior da cabeça é inclinada com um par de orelhas em formato de chifres, e sua cauda segmentada que termina com uma protrusão espinhosa.
@@ -133,13 +144,13 @@
     <hr> 
       <!--Marcando parte de destaque no texto usando a tag mark--> 
       <div class="habilidades">
-       <h3>Habilidades</h3>
+      <h3>Habilidades</h3>
         <picture> 
           <source media="(max-width:200px)" srcset="../imagens/Tigrex_pedra_P.png" type="image/png">
           <source media="(max-width:500px)" srcset="../imagens/Tigrex_pedra_M.png" type="image/png"> 
           <source media="(max-width:800px)" srcset="../imagens/Tigrex_pedra_G.PNG" type="image/PNG">     
-         <img src="../imagens/Tigrex_pedra_M.png" alt="Tigrex_pedra">
-       </picture> 
+        <img src="../imagens/Tigrex_pedra_M.png" alt="Tigrex_pedra">
+      </picture> 
       
       <p>  Como um wyvern quadrúpede, suas asas evoluíram para as pernas dianteiras, o que permite que ele funcione em velocidades muito rápidas. Embora possua um par de asas adequadamente desenvolvidas, raramente é visto voar no sentido tradicional. Na verdade, é mais propenso a deslizar de local para local. Possui um poderoso conjunto de pulmões que lhe dá a capacidade de produzir rugidos extremamente altos e concusivos  que podem danificar fisicamente objetos próximos. Ao contrário de muitos outros monstros, Tigrex não  possui nenhum elemento. Em vez disso, depende da sua força bruta para derrubar oponentes. <mark>É possível prender o Tigrex na parede, ao desviar de uma mordida e estando próximoa uma parede ele vai acertar a mordida na parede ao invés de simplesmente errar o ataque, isso dá a oportunidade de desferir vários ataques em Tigrex ou até mesmo cortar sua calda.</mark></p>
     </div>
@@ -153,7 +164,7 @@
         <img src="../imagens/Tigrex_fraqueza_G.jpeg" alt="Tigrex fraquezas">
       </picture>
 
-     <p>O Tigrex geralmente tenta intimidar os possíveis atacantes com um rugido de cortar as orelhas. Se o combate se tornar intenso o suficiente, ele lavará sangue em seus membros anteriores, rosto e olhos, a fim de dar à sua pele um brilho vermelho-vivo como um esforço para intimidar ainda mais os atacantes. Tigrex tem sua maior  ponto fraco sendo na cabeça e os elementos que tem fraqueza são <mark>trovão</mark> e <mark>dragão</mark> a grande maioria das vezes nos jogos.</p>
+    <p>O Tigrex geralmente tenta intimidar os possíveis atacantes com um rugido de cortar as orelhas. Se o combate se tornar intenso o suficiente, ele lavará sangue em seus membros anteriores, rosto e olhos, a fim de dar à sua pele um brilho vermelho-vivo como um esforço para intimidar ainda mais os atacantes. Tigrex tem sua maior  ponto fraco sendo na cabeça e os elementos que tem fraqueza são <mark>trovão</mark> e <mark>dragão</mark> a grande maioria das vezes nos jogos.</p>
   </div>
   <hr>
   <h3>Habitat</h3>
@@ -161,9 +172,9 @@
   <hr>
   <!--Importando audios usando a tag audio e  suas propriedades-->
   <div class="trilhaMonstro">
-   <h3>Trilha sonora do monstro</h3>
-   <p>Monster hunter 4 Ultimate</p>
-   <audio preload="metadata" controls autoplay loop>
+    <h3>Trilha sonora do monstro</h3>
+    <p>Monster hunter 4 Ultimate</p>
+  <audio preload="metadata" controls autoplay loop>
     <source src="../áudios/TigrexTheme4u.mp3" type="audio/mp3">
     <p>Audio não suportado <a href="../áudios/TigrexTheme4u.mp3" download="TigrexTheme4u.mp3" type="audio/mp3"></a></p>
   </audio>
@@ -177,25 +188,16 @@
     <source src="../áudios/TigrexThemeWib.mp3" type="audio/mp3">
     <p>Audio não suportado <a href="../áudios/TigrexThemeWib.mp3" download="TigrexThemeWib.mp3" type="audio/mp3"></a></p>
   </audio>
- </div>
-  <hr>
-  <!--Inserindo video da gameplay na pagina ultilizando a tag video-->
-  <div class="gameplay">
-   <h3>Gameplay</h3>
-   <video width="500" poster="../imagens/thumb.jpeg" controls autoplay>
-    <source src="../videos/Tentando jogar sem hud.mp4" type="video/mp4">
-    <p>Seu navegador não suporta o video</p>  
-   </video>
-   <hr>
   </div>
+  <hr>
 <div class="iframe">
   <p> versão do youtube</p>
   <!--Usando a tag iframe para chamar um video upado no youtube para a pagina-->
   <iframe width="560" height="315" src="https://www.youtube.com/embed/cLQzf9XtrR0?si=Vixr3VmEwZXJ5V9y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
- </div>
+  </div>
   <hr>
- </div>
-   <!--chamada do script para o sidebar funcionar-->
-   <script src="../scripts/script.js"></script> 
+  </div>
+  <!--chamada do script para o sidebar funcionar-->
+  <script src="../scripts/script.js"></script> 
 </body>
 </html>
