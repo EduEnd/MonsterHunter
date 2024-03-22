@@ -195,3 +195,26 @@ iframe{
     max-width: 500px;
     height: 250px;
 }
+/*Formatando as imagens do conteiner monstro, com suas posições e tamanho que teram na tela assim como a maneira que estarão organizadas*/
+.monstro img{
+    margin-top:4%;
+    margin-left: 3%;
+    width: 13%;
+    height: 13%;
+    display: flex;
+    flex-direction: column;
+}
+/*Formato dos paragrafos do conteiner monstro, com suas margens dentro do conteiner pai*/
+.monstro p{
+    margin-top: -5%;
+    margin-left: 27%;
+}
+/*Formato das tag ancor no conteiner monstro  com e o formato das cores que vai ter quando for selecionado*/
+.monstro a{
+    text-decoration: none;
+    color: black;
+}
+.monstro a:hover{
+    color: rgb(209, 198, 45);
+    text-shadow: 0 0 0px rgb(206, 195, 39) ;
+}

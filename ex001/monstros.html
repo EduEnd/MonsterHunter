@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Adição do favicon para pagina com a tag link sendo usada-->
+    <link rel="shortcut icon" href="../imagens/controle.ico" type="imagem/ico-x">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Monster Hunter Database</title>
+    <!--mudanças nas formas, fonts e imagens com a referencia do link a parte de style da pagina estilo.css-->
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="../css/menu.css">
+</head>
+<body>  
+    <!--Ultilizando a tag div para criar conteinrs para facilitar a formatação de partes da pagina-->  
+    <!--titulo incial da pagina e parágrafos com informações iniciais e cabeçalho da pagina-->
+    <header>    
+    <!--Menu da pagina da pagina ultilizando lista desordenada e span para manipulacao  do itens do menu-->
+    <nav id="sidebar">   
+        <div id="menu">
+            <h1>Monster Hunter Freedom Unite Database</h1>
+            <ul id="menu_itens">
+            <li class="menu-item"><a href="../ex001/index.html" target="_self" rel="author">
+            <i class="fa-solid fa-house"></i>
+                <span class="item-descricao">
+                Inicio
+                </span>
+                </a>
+            </li>
+            <li class="menu-item"><a href="../ex001/monstros.html" target="_self" rel="author">
+            <i class="fa-solid fa-book"></i>
+                <span class="item-descricao">
+                Monstros
+                </span>
+                </a>
+            </li>
+            <li class="menu-item"><a href="#" target="_self" rel="author">
+            <i class="fa-solid fa-book-open"></i>
+                <span class="item-descricao">
+                Quests
+                </span>
+            </a>
+            </li>
+            <li class="menu-item"><a href="../ex001/armas.html" target="_blank" rel="author">
+            <i class="fa-solid fa-gavel"></i>
+                <span class="item-descricao">
+                Armas
+                </span>
+                </a>
+            </li>
+            <li class="menu-item"><a href="#" target="_blank" rel="author">
+            <i class="fa-solid fa-shield-halved"></i>
+                <span class="item-descricao">
+                Armaduras
+                </span>
+                </a>
+            </li>
+            <li class="menu-item"><a href="#" target="_blank" rel="author">
+            <i class="fa-solid fa-flask"></i>
+                <span class="item-descricao">
+                Itens
+                </span>
+                </a>
+            </li>
+            <li class="menu-item"><a href="#" target="_self" rel="author">
+            <i class="fa-solid fa-star-of-life"></i>
+                <span class="item-descricao">
+                Skills
+                </span>
+            </a>
+            </li> 
+            <li class="menu-item"><a href="../ex001/mapas.html" target="_blank" rel="author">
+            <i class="fa-solid fa-map"></i>
+                <span class="item-descricao">
+                Mapas
+                </span>
+                </a>
+            </li>     
+            <li class="menu-item"><a href="#" target="_blank" rel="author">
+            <i class="fa-solid fa-gem"></i>
+                <span class="item-descricao">
+                    Decorações
+                </span>
+                </a>
+            </li>
+            </ul>
+        <!--botao usando a tag button para o icone que vai abrir e fechar o sidebar--> 
+        <button id="abri_btn">
+            <i id="abri_btn_icon" class="fa-solid fa-chevron-right"></i>
+        </button>
+        </div>
+    </nav>
+    </header>
+    <div class="principal">
+    <!--colocando barra de pesquisa na pagina-->
+        <div class="buscar-box">
+            <div class="lupa-buscar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+            <div class="input-buscar">
+                <input type="text" name="" id="" placeholder="Buscar...">
+            </div>
+            <div class="btn-fechar">
+                <i class="fa-solid fa-circle-xmark"></i>
+            </div>
+    </div>
+        <div class="monstro">
+            <a href="../paginas_monstros/gendrome.html" target="_blank"><img src="../imagens/Gendrome_Icon.png" alt="Gendrome_Icon"><p>Gendrome</p></a><hr>
+            <a href="../paginas_monstros/giadrome.html" target="_blank"><img src="../imagens/MHFU-Giadrome_Icon.png" alt="MHFU-Giadrome_Icon"><p>Giadrome</p></a><hr>
+            <a href="../paginas_monstros/gypceros.html" target="_blank"><img src="../imagens/Gypceros_Icon.png" alt="Gypceros_Icon"><p>Gypceros</p></a><hr>
+            <img src="../imagens/Iodrome_Icon.png" alt="Iodrome_Icon"><p>Iodrome</p><hr>
+            <img src="../imagens/Shakalaka_Icon.png" alt="Shakalaka_Icon"><p>King Shakalaka</p><hr>
+            <a href="../ex001/index.html" target="_blank"><img src="../imagens/Tigrex_Icon.png" alt="Tigrex_Icon"><p>Tigrex</p></a><hr>
+            <img src="../imagens/Velocidrome_Icon.png" alt="Velocidrome_Icon"><p>Velocidrome</p><hr>
+            <img src="../imagens/Vespoid_Icon.png" alt="Vespoid_Icon"><p>Vespoid Queen</p><hr>
+            <img src="../imagens/Yian_Garuga_Icon.png" alt="Yian_Garuga_Icon"><p>Yian Garuga</p><hr>
+            <img src="../imagens/Yian_Kut-Ku_Icon.webp" alt="Yian_Kut-Ku_Icon"><p>Yian Kut-Ku</p><hr>
+            <img src="../imagens/Blue_Yian_Kut-Ku_Icon.webp" alt="Blue_Yian_Kut-Ku_Icon"><p>Blue Yian Kut-Ku</p><hr>
+        </div>
+    </div>
+    <!--chamada do script para o sidebar funcionar-->
+    <script src="../scripts/script.js"></script> 
+</body>
+</html>

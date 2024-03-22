@@ -159,7 +159,7 @@
         margin-bottom: 5px;
     }
 }
-
+/*Formato da barra de pesquisa com tamanho, posição e outras propriedades de layot*/
 .buscar-box{
     width: 80px;
     height: 30px;
@@ -170,12 +170,14 @@
     right: 0%;
     transition: .5s;
 }
+/*quando a barra de pesquisa for ativa ela irá assumir essas novas propriedades para sair da lupa e mostrar a caixa de pesquisa*/
 .buscar-box.ativar{
     width: 50%;
     max-width: 400px;
     background-color: white;
     border-radius: 7px;
 }
+/*propriedades dos icones de lupa e de fechar barra de pesquisa*/
 .buscar-box .lupa-buscar,.buscar-box .btn-fechar{
     min-width: 40px;
     height: 40px;
@@ -187,10 +189,11 @@
     position: relative;
 
 }
+/*tamanho da lupa*/
 .buscar-box .lupa-buscar i{
     font-size: 20px;
 }
-
+/*propriedades da caixa barra de busca*/
 .buscar-box .input-buscar{
     position:absolute;
     left: 40px;
@@ -198,6 +201,7 @@
     height: 100%;
     line-height: 40px;
 }
+/*propriedades do input da barra de busca*/
 .buscar-box .input-buscar input{
     width: 100%;
     height: 100%;
@@ -206,17 +210,21 @@
     font-size: 16px;
     opacity: 0;
 }
+/*deixar o input visivel apenas quando estiver ativado*/
 .buscar-box.ativar .input-buscar input{
     opacity: 100;
 }
+/*propriedades do iconce de fechar*/
 .buscar-box .btn-fechar{
     font-size: 20px;
     margin-left: 10px;
     opacity: 0;
 }
+/*deixar o icone de fechar visivel apenas quando estiver ativado*/
 .buscar-box.ativar .btn-fechar{
     opacity: 100%;
 }
+/*responsividade da barra de pesquisa*/
 @media screen and (max-width: 768px) {
     .buscar-box .input-buscar {
         right: 50px; 
