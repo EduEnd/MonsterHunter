@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Adição do favicon para pagina com a tag link sendo usada-->
+    <link rel="shortcut icon" href="../imagens/controle.ico" type="imagem/ico-x">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Monster Hunter Database</title>
+    <!--mudanças nas formas, fonts e imagens com a referencia do link a parte de style da pagina estilo.css-->
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="../css/menu.css">
+</head>
+<body>  
+    <!--Ultilizando a tag div para criar conteinrs para facilitar a formatação de partes da pagina-->  
+    <!--titulo incial da pagina e parágrafos com informações iniciais e cabeçalho da pagina-->
+    <header>    
+    <!--Menu da pagina da pagina ultilizando lista desordenada e span para manipulacao  do itens do menu-->
+    <nav id="sidebar">   
+        <div id="menu">
+            <h1>Monster Hunter Freedom Unite Database</h1>
+            <ul id="menu_itens">
+            <li class="menu-item"><a href="../ex001/index.html" target="_blank" rel="author">
+            <i class="fa-solid fa-house"></i>
+                <span class="item-descricao">
+                Inicio
+                </span>
+                </a>
+            </li>
+            <li class="menu-item"><a href="../ex001/monstros.html" target="_blank" rel="author">
+            <i class="fa-solid fa-book"></i>
+                <span class="item-descricao">
+                Monstros
+                </span>
+                </a>
+            </li>
+            <li class="menu-item"><a href="#" target="_self" rel="author">
+            <i class="fa-solid fa-book-open"></i>
+                <span class="item-descricao">
+                Quests
+                </span>
+            </a>
+            </li>
+            <li class="menu-item"><a href="../ex001/armas.html" target="_blank" rel="author">
+            <i class="fa-solid fa-gavel"></i>
+                <span class="item-descricao">
+                Armas
+                </span>
+                </a>
+            </li>
+            <li class="menu-item"><a href="#" target="_blank" rel="author">
+            <i class="fa-solid fa-shield-halved"></i>
+                <span class="item-descricao">
+                Armaduras
+                </span>
+                </a>
+            </li>
+            <li class="menu-item"><a href="#" target="_blank" rel="author">
+                <i class="fa-solid fa-flask"></i>
+                <span class="item-descricao">
+                Itens
+                </span>
+                </a>
+            </li>
+            <li class="menu-item"><a href="#" target="_self" rel="author">
+            <i class="fa-solid fa-star-of-life"></i>
+                <span class="item-descricao">
+                Skills
+                </span>
+            </a>
+            </li> 
+            <li class="menu-item"><a href="../ex001/mapas.html" target="_blank" rel="author">
+            <i class="fa-solid fa-map"></i>
+                <span class="item-descricao">
+                Mapas
+                </span>
+                </a>
+            </li>     
+            <li class="menu-item"><a href="#" target="_blank" rel="author">
+            <i class="fa-solid fa-gem"></i>
+                <span class="item-descricao">
+                    Decorações
+                </span>
+                </a>
+            </li>
+            </ul>
+        <!--botao usando a tag button para o icone que vai abrir e fechar o sidebar--> 
+        <button id="abri_btn">
+            <i id="abri_btn_icon" class="fa-solid fa-chevron-right"></i>
+        </button>
+        </div>
+    </nav>
+    </header>
+    <div class="principal">
+    <!--colocando barra de pesquisa na pagina-->
+    <div class="buscar-box">
+        <div class="lupa-buscar">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="input-buscar">
+            <input type="text" name="" id="" placeholder="Buscar...">
+        </div>
+        <div class="btn-fechar">
+        <i class="fa-solid fa-circle-xmark"></i>
+        </div>
+    </div> 
+        <!--Iserindo imagem ultilizando a tag img-->
+
+    <h2>Gypceros informações</h2>
+        <h3>Fisiologia</h3>
+        <!--usando a tag section para ultilizarmos a o carrossel de imagens e tag source para tratamento de imagem-->
+        <section class="galeria">
+        <div class="fotos">  
+        <picture>
+            <source media="(max-width:360px)" srcset="../monstro_imagens/Iodrome_mh1_P.png" type="image/png">
+            <source media="(max-width:520px)" srcset="../monstro_imagens/Iodrome_mh1_M.png" type="image/png">  
+            <img src="../monstro_imagens/Iodrome_mh1_G.png" alt="Foto 1">
+        </picture> 
+        <picture>
+            <source media="(max-width:360px)" srcset="../monstro_imagens/Iodrome_mh4_P.png" type="image/png">
+            <source media="(max-width:520px)" srcset="../monstro_imagens/Iodrome_mh4_M.png" type="image/png">  
+            <img src="../monstro_imagens/Iodrome_mh4_G.png" alt="Foto 2">
+        </picture> 
+        <picture>
+            <source media="(max-width:360px)" srcset="../monstro_imagens/Iodrome_mh1_P.png" type="image/png">
+            <source media="(max-width:520px)" srcset="../monstro_imagens/Iodrome_mh1_M.png" type="image/png">  
+            <img src="../monstro_imagens/Iodrome_mh1_G.png" alt="Foto 3">
+        </picture>
+        <picture>
+            <source media="(max-width:360px)" srcset="../monstro_imagens/Iodrome_mh4_P.png" type="image/png">
+            <source media="(max-width:520px)" srcset="../monstro_imagens/Iodrome_mh4_M.png" type="image/png">  
+            <img src="../monstro_imagens/Iodrome_mh4_G.png" alt="Foto 4">
+        </picture>  
+        <picture>
+            <source media="(max-width:360px)" srcset="../monstro_imagens/Iodrome_mh1_P.png" type="image/png">
+            <source media="(max-width:520px)" srcset="../monstro_imagens/Iodrome_mh1_M.png" type="image/png">  
+            <img src="../monstro_imagens/Iodrome_mh1_G.png" alt="Foto 1">
+        </picture>
+        </div>    
+        </section>
+    <p>O monstro alfa que lidera uma matilha de Ioprey. Eles são maiores e têm uma crista mais proeminente. Encontrados em zonas subtropicais, eles cospem um veneno que pode secar a força vital das presas.
+        É significativamente maior do que a Ioprey normal e possui uma crista maior. Ao contrário de outros líderes de matilha, Iodrome tem um visual mais anfíbio, com pele parecida com salamandra que parece brilhar com umidade, e um saco de garganta semelhante a um sapo. Também não tem as garras afiadas de seus parentes, dependendo mais de veneno para derrubar presas como Aptonoth e inimigos.</p>
+    <hr> 
+
+        <!--Marcando parte de destaque no texto usando a tag mark--> 
+        <div class="habilidades">
+        <h3>Habilidades</h3>
+        <picture> 
+            <source media="(max-width:360px)" srcset="../monstro_imagens/iodrome_P.png" type="image/png">
+            <source media="(max-width:520px)" srcset="../monstro_imagens/iodrome_M.png" type="image/png"> 
+            <source media="(max-width:800px)" srcset="../monstro_imagens/iodrome_G.png" type="image/png">     
+        <img src="../monstro_imagens/iodrome_M.png" alt="iodrome_jogo">
+        </picture>
+        <p>Embora não seja tão forte quanto Flying Wyverns, ele pode rapidamente aleijar caçadores com o poder de sua matilha e veneno. Iodrome é uma ameaça devido à sua velocidade, agilidade, força considerável e veneno. Quando ameaçado, Iodrome cospe veneno do saco de veneno em sua garganta.</p>
+    </div>
+    <hr>
+
+    <div class=" comportamento">
+        <h3>Comportamento</h3>
+        <picture>
+        <source media="(max-width: 360px)" srcset="../monstro_imagens/iodrome_fraquezas_P.jpg" type="image/jpg">
+        <source media="(max-width: 480px)" srcset="../monstro_imagens/iodrome_fraquezas_M.jpg" type="image/jpg">
+        <source media="(max-width: 800px)" srcset="../monstro_imagens/iodrome_fraquezas_G.jpg" type="image/jpg">
+        <img src="../monstro_imagens/iodrome_fraquezas_M.jpg" alt="iodrome fraquezas">
+        </picture>>
+    <p>Iodrome é o líder de uma matilha de Ioprey, e sempre viaja com sua matilha para proteção. Iodrome tem maior fraqueza a <mark>água e raio</mark> e não caem em <mark>pitffal trap</mark> no jogo monster hunter freedom unite. Ele recebe dano por igual em seu corpo, sendo fácil causar dano com qualquer arma.</p>
+    </div>
+    <hr>
+
+    <h3>Habitat</h3>
+    <p>É frequentemente visto nas várias zonas diferentes do Pântano e do Vulcão, embora a partir de Monster Hunter 4 Iodrome também pode ser encontrado no Everwood.</p>
+    <hr>
+    <!--Importando audios usando a tag audio e  suas propriedades-->
+    <div class="trilhaMonstro">
+    <h3>Trilha sonora do monstro</h3>
+    <p>Este monstro não possui trilha propria</p>
+    </div>
+    <hr>
+<div class="iframe">
+    <p>Intro do monstro (mh4u)</p>
+    <!--Usando a tag iframe para chamar um video upado no youtube para a pagina-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/KkrVTgnAStA?si=qhi2sLyXVgYQ1UqM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <hr>
+    </div>
+    <!--chamada do script para o sidebar funcionar-->
+    <script src="../scripts/script.js"></script> 
+</body>
+</html>
